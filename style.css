@@ -540,6 +540,7 @@ a:focus-visible {
     border-radius: var(--radius);
     border: 1px solid var(--color-border);
     transition: transform 0.2s, box-shadow 0.3s;
+    position: relative;
 }
 
 .work-item:hover {
@@ -603,6 +604,21 @@ a:focus-visible {
 
 .work-link.placeholder:hover {
     text-decoration: none;
+}
+
+/* Concept Badge */
+.concept-badge {
+    display: inline-block;
+    margin-top: 0.75rem;
+    padding: 0.2rem 0.75rem;
+    font-size: 0.6rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    background: var(--color-accent);
+    color: var(--color-white);
+    border-radius: 100px;
+    opacity: 0.8;
 }
 
 /* ===== PROCESS ===== */
@@ -1021,4 +1037,4 @@ a:focus-visible {
     .btn:focus-visible {
         transform: none !important;
     }
-}
+    }
