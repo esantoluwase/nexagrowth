@@ -739,13 +739,6 @@ a:focus-visible {
     margin-bottom: 2rem;
 }
 
-.contact-note {
-    font-size: 0.75rem !important;
-    color: var(--color-text-secondary) !important;
-    margin-top: 1rem;
-    opacity: 0.6;
-}
-
 /* ===== FOOTER ===== */
 .site-footer {
     padding: 2.5rem 0;
@@ -1037,4 +1030,4 @@ a:focus-visible {
     .btn:focus-visible {
         transform: none !important;
     }
-    }
+}
